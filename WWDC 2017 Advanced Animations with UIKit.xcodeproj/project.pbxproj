@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB21F8181EEC94AF0047A9FE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB21F8171EEC94AF0047A9FE /* README.md */; };
+		EB66509C1EEBFEFE0071081F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB66509B1EEBFEFE0071081F /* AppDelegate.swift */; };
+		EB66509E1EEBFEFE0071081F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB66509D1EEBFEFE0071081F /* ViewController.swift */; };
+		EB6650A11EEBFEFE0071081F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB66509F1EEBFEFE0071081F /* Main.storyboard */; };
+		EB6650A31EEBFEFE0071081F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6650A21EEBFEFE0071081F /* Assets.xcassets */; };
+		EB6650A61EEBFEFE0071081F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6650A41EEBFEFE0071081F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB21F8171EEC94AF0047A9FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB6650981EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC 2017 Advanced Animations with UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB66509B1EEBFEFE0071081F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB66509D1EEBFEFE0071081F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB6650A01EEBFEFE0071081F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB6650A21EEBFEFE0071081F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6650A51EEBFEFE0071081F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB6650A71EEBFEFE0071081F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6650951EEBFEFE0071081F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB66508F1EEBFEFE0071081F = {
+			isa = PBXGroup;
+			children = (
+				EB21F8171EEC94AF0047A9FE /* README.md */,
+				EB66509A1EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit */,
+				EB6650991EEBFEFE0071081F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6650991EEBFEFE0071081F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6650981EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB66509A1EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EB66509B1EEBFEFE0071081F /* AppDelegate.swift */,
+				EB66509D1EEBFEFE0071081F /* ViewController.swift */,
+				EB66509F1EEBFEFE0071081F /* Main.storyboard */,
+				EB6650A21EEBFEFE0071081F /* Assets.xcassets */,
+				EB6650A41EEBFEFE0071081F /* LaunchScreen.storyboard */,
+				EB6650A71EEBFEFE0071081F /* Info.plist */,
+			);
+			path = "WWDC 2017 Advanced Animations with UIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6650971EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6650AA1EEBFEFE0071081F /* Build configuration list for PBXNativeTarget "WWDC 2017 Advanced Animations with UIKit" */;
+			buildPhases = (
+				EB6650941EEBFEFE0071081F /* Sources */,
+				EB6650951EEBFEFE0071081F /* Frameworks */,
+				EB6650961EEBFEFE0071081F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWDC 2017 Advanced Animations with UIKit";
+			productName = "WWDC 2017 Advanced Animations with UIKit";
+			productReference = EB6650981EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6650901EEBFEFE0071081F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Christopher Goldsby";
+				TargetAttributes = {
+					EB6650971EEBFEFE0071081F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB6650931EEBFEFE0071081F /* Build configuration list for PBXProject "WWDC 2017 Advanced Animations with UIKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB66508F1EEBFEFE0071081F;
+			productRefGroup = EB6650991EEBFEFE0071081F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6650971EEBFEFE0071081F /* WWDC 2017 Advanced Animations with UIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6650961EEBFEFE0071081F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB21F8181EEC94AF0047A9FE /* README.md in Resources */,
+				EB6650A61EEBFEFE0071081F /* LaunchScreen.storyboard in Resources */,
+				EB6650A31EEBFEFE0071081F /* Assets.xcassets in Resources */,
+				EB6650A11EEBFEFE0071081F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6650941EEBFEFE0071081F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB66509E1EEBFEFE0071081F /* ViewController.swift in Sources */,
+				EB66509C1EEBFEFE0071081F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB66509F1EEBFEFE0071081F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6650A01EEBFEFE0071081F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB6650A41EEBFEFE0071081F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6650A51EEBFEFE0071081F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6650A81EEBFEFE0071081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6650A91EEBFEFE0071081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6650AB1EEBFEFE0071081F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "WWDC 2017 Advanced Animations with UIKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cgoldsby.WWDC-2017-Advanced-Animations-with-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB6650AC1EEBFEFE0071081F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "WWDC 2017 Advanced Animations with UIKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cgoldsby.WWDC-2017-Advanced-Animations-with-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6650931EEBFEFE0071081F /* Build configuration list for PBXProject "WWDC 2017 Advanced Animations with UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6650A81EEBFEFE0071081F /* Debug */,
+				EB6650A91EEBFEFE0071081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6650AA1EEBFEFE0071081F /* Build configuration list for PBXNativeTarget "WWDC 2017 Advanced Animations with UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6650AB1EEBFEFE0071081F /* Debug */,
+				EB6650AC1EEBFEFE0071081F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6650901EEBFEFE0071081F /* Project object */;
+}
